@@ -4,7 +4,6 @@ description: 'GitHub Action for AWS CDK'
 runs:
   using: 'docker'
   image: 'Dockerfile'
-  pre-entrypoint: 'run --privileged -d docker:dind'
 branding:
   icon: 'box'
   color: 'yellow'
