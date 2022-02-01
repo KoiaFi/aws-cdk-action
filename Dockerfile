@@ -1,4 +1,4 @@
-FROM alpine:3.15
+FROM docker:dind
 
 LABEL name="aws-cdk-action"
 LABEL repository="https://github.com/KoiaFi/aws-cdk-action"
