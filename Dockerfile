@@ -1,7 +1,5 @@
 FROM alpine:3.15
 
-RUN docker run --privileged -d docker:dind
-
 LABEL name="aws-cdk-action"
 LABEL repository="https://github.com/KoiaFi/aws-cdk-action"
 LABEL homepage="https://github.com/KoiaFi/aws-cdk-action"
