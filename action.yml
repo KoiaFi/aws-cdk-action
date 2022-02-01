@@ -2,9 +2,9 @@ name: 'aws-cdk-action'
 author: 'Scott Brenner <scott@scottbrenner.me>'
 description: 'GitHub Action for AWS CDK'
 runs:
-  pre: 'dockersetup.sh'
   using: 'docker'
   image: 'Dockerfile'
+  pre-entrypoint: 'dockersetup.sh'
 branding:
   icon: 'box'
   color: 'yellow'
