@@ -13,7 +13,7 @@ LABEL "com.github.actions.color"="yellow"
 LABEL "maintainer"="Ben Riazy <ben@joinkoia.com>"
 
 RUN apk --no-cache add nodejs npm python3 py3-pip
-RUN npm install -g aws-cdk@2.x
+RUN npm install -g aws-cdk
 RUN pip3 install aws-cdk.core
 
 COPY entrypoint.sh /entrypoint.sh
